@@ -6,7 +6,6 @@ import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 
 /**
  * @title FileUploaderV3
- * @dev Secure, gasless file metadata storage with Account Abstraction support
  */
 contract FileUploaderV3 is Ownable, ReentrancyGuard {
     struct FileMetadata {
